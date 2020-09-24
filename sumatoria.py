@@ -1,6 +1,13 @@
 def sumatoria_cubica(n):
-    raise NotImplementedError()
+    res=0
+    i=1
+    while cont<=n:
+        res+=i**3
+    return res
 
 def sumatoria_constante(n):
-    raise NotImplementedError()
-
+        res=0
+        i=1
+        while cont<=n:
+            res+=i
+        return res
